@@ -28,6 +28,10 @@ gem 'jbuilder', '~> 2.7'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 
+gem 'pg', '0.11.0'
+gem 'rails_12factor'
+
+
 group :development, :test do
   gem 'sqlite3', '~> 1.4'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -55,8 +59,8 @@ end
 
 
 group :production do
-  gem 'pg', '0.11.0'
-  gem 'rails_12factor'
+#  gem 'pg', '0.11.0'
+#  gem 'rails_12factor'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

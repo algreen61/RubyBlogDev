@@ -18,7 +18,7 @@ font-size: 3rem;
 
 h1 {
 
-color: red;
+color: black;
 
 }
 
@@ -29,4 +29,16 @@ color: red;
   text-transform: uppercase;
 
 
+}
+
+#home_container {
+  margin-top: 25px;
+}
+
+.jumbotron{
+  background-image: url('jumbo-copy1.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
 }
